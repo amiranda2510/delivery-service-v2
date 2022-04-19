@@ -1,0 +1,11 @@
+<%= simple_form_for @booking do |f| %>
+  <%= f.input :origin_address %>
+  <%= f.input :origin_lat %>
+  <%= f.input :origin_lon %>
+  <%= f.input :destiny_address %>
+  <%= f.input :destiny_lat %>
+  <%= f.input :destiny_lon %>
+  <%= f.button :submit %>
+<% end %>
+
+<button><%= link_to 'Ver listado de servicios', bookings_path %></button>

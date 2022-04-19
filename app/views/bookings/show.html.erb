@@ -1,0 +1,8 @@
+<h3><%= "Detalle de Booking Nº #{@booking.id}" %></h3>
+
+<div>direccion de origen: <%= @booking.origin_address %></div>
+<div>direccion de envio: <%= @booking.destiny_address %></div>
+<div>estado del servicio: <%= @booking.status %></div>
+<div>se asigno conductor?: <%= @booking.assigned_driver ? "yes" : "no" %></div>
+
+<button><%= link_to 'Cancelar servicio?', booking_path(@booking.id) %></button>

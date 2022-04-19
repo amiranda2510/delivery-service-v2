@@ -1,0 +1,12 @@
+<ul>
+  <% @bookings.each do |booking| %> 
+
+      <li>
+        <div>booking id: <%= booking.service_id %></div>
+        <div>direccion de origen: <%= booking.origin_address %></div>
+        <div>direccion de envio: <%= booking.destiny_address %></div>
+      </li>
+      <button><%= link_to 'Ver detalle del servicio', booking_path(booking.id) %></button>
+    <% end %>
+
+</ul>

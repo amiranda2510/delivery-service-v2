@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  origin_address: MyString
+  origin_lat: 1.5
+  origin_lon: 1.5
+  destiny_address: MyString
+  destiny_lat: 1.5
+  destiny_lon: 1.5
+
+two:
+  origin_address: MyString
+  origin_lat: 1.5
+  origin_lon: 1.5
+  destiny_address: MyString
+  destiny_lat: 1.5
+  destiny_lon: 1.5
